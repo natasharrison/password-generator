@@ -12,7 +12,8 @@ An application that allows the user to generate a random password in hopes of pr
 
 ## Website
 
-[GitHub] https://github.com/natasharrison/password-generator.git
+[GitHub Deployment] https://natasharrison.github.io/password-generator/
+[Repository] https://github.com/natasharrison/password-generator.git
 [screenshot] <img src="screenshot.jpg">
 
 ## Contribution
