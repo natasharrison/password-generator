@@ -38,7 +38,17 @@ function generatePassword() {
     }
   }
   // numericChar
+    if (numericChar === true) {
+      for (var i = 0; i < numericArray.length; i++) { 
+      passwordArray.push(numericArray[i])
+    }
+  }
   // specChar
+   if (specChar === true) {
+      for (var i = 0; i < specArray.length; i++) { 
+      passwordArray.push(specArray[i])
+    }
+  }
     console.log(passwordArray)
 
     // for loop 
@@ -52,11 +62,6 @@ function generatePassword() {
        console.log(finalPassword);
 
       //  remove the commas 
-
-
-
-
-
 return finalPassword; 
 
 };
